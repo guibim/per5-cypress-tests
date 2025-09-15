@@ -1,0 +1,26 @@
+{
+  "name": "exc-per5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "axe-core": "^4.10.3",
+    "cypress": "^15.2.0",
+    "cypress-axe": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:open": "cypress open --e2e",
+    "test:run": "cypress run",
+    "test:dev": "cypress run --no-exit",
+    "test:smoke": "cypress run --spec cypress/e2e/smoke.seo.cy.js",
+    "test:nav": "cypress run --spec cypress/e2e/nav.cy.js",
+    "test:cta": "cypress run --spec cypress/e2e/cta.cy.js",
+    "test:links": "cypress run --spec cypress/e2e/links.cy.js",
+    "test:acessibilidade": "cypress run --spec cypress/e2e/acessibilidade.cy.cy.js",
+    "test:responsive": "cypress run --spec cypress/e2e/responsive.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+.cypress-cache/
+CypressCache/
+
+# SO/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
