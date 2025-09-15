@@ -27,31 +27,60 @@ O objetivo é construir um **case pessoal de QA e automação**, cobrindo desde 
 ## 📂 Estrutura de Testes
 
 ### 1. `smoke.seo.cy.js`
-- Verifica se a página responde com status 200.  
-- Checa meta tags básicas de SEO.  
+- **O que faz:**  
+  - Verifica se a página responde com status 200.  
+  - Checa meta tags básicas de SEO.  
+- **Tipo de teste:** E2E / Smoke  
+- **Categoria:** SEO  
+
+---
 
 ### 2. `nav.cy.js`
-- Testa navegação pelo menu (scroll até seções internas).  
-- Valida que o botão **Serviços** leva à seção *Nossos Serviços*.  
-- Confirma que os links **Portfólio** e **Contato** abrem em novas abas corretamente.  
+- **O que faz:**  
+  - Testa navegação pelo menu (scroll até seções internas).  
+  - Valida que o botão **Serviços** leva à seção *Nossos Serviços*.  
+  - Confirma que os links **Portfólio** e **Contato** abrem em novas abas corretamente.  
+- **Tipo de teste:** E2E / Funcional  
+- **Categoria:** Navegação  
+
+---
 
 ### 3. `cta.cy.js`
-- Valida a existência e integridade de todos os **CTAs externos** (WhatsApp, Instagram, etc.).  
-- Garante que nenhum link externo dispara abertura de abas durante os testes.  
+- **O que faz:**  
+  - Valida a existência e integridade de todos os **CTAs externos** (WhatsApp, Instagram, etc.).  
+  - Garante que nenhum link externo dispara abertura de abas durante os testes.  
+- **Tipo de teste:** E2E / Funcional  
+- **Categoria:** Integração externa (links para serviços de terceiros)  
+
+---
 
 ### 4. `responsive.cy.js`
-- Executa a página em **3 viewports** (mobile, tablet, desktop).  
-- Confirma header, título/hero e CTAs visíveis conforme a resolução.  
-- Corrige comportamento de menu mobile (hamburger).  
+- **O que faz:**  
+  - Executa a página em **3 viewports** (mobile, tablet, desktop).  
+  - Confirma header, título/hero e CTAs visíveis conforme a resolução.  
+  - Corrige comportamento de menu mobile (hamburger).  
+- **Tipo de teste:** E2E / UI  
+- **Categoria:** Responsividade / UX  
+
+---
 
 ### 5. `links.cy.js`
-- Testa todos os links internos (resposta 200/301/302).  
-- Verifica que uma rota inválida exibe página **404 amigável**.  
+- **O que faz:**  
+  - Testa todos os links internos (resposta 200/301/302).  
+  - Verifica que uma rota inválida exibe página **404 amigável**.  
+- **Tipo de teste:** E2E / Funcional  
+- **Categoria:** Integração interna (roteamento)  
+
+---
 
 ### 6. `acessibilidade.cy.js`
-- Roda análise com **cypress-axe**.  
-- Falha em violações **críticas/serious** de acessibilidade.  
-- Lista problemas como contraste, `alt` em imagens e landmarks.  
+- **O que faz:**  
+  - Roda análise com **cypress-axe**.  
+  - Falha em violações **críticas/serious** de acessibilidade.  
+  - Lista problemas como contraste, `alt` em imagens e landmarks.  
+- **Tipo de teste:** Acessibilidade  
+- **Categoria:** UX / Inclusão  
+
 
 ---
 
