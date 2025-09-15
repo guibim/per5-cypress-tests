@@ -1,3 +1,5 @@
+![E2E (Cypress)](https://github.com/guibim/per5-cypress-tests/actions/workflows/e2e.yml/badge.svg)
+
 # 🧪 PER5 - Cypress Test Suite
 
 Este repositório contém a suíte de **testes automatizados E2E** desenvolvida com [Cypress](https://www.cypress.io/), via **Visual Studio Code (VSCode)**, aplicada sobre uma **landing page**
