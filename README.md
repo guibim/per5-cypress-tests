@@ -1,4 +1,3 @@
-![E2E (Cypress)](https://github.com/guibim/per5-cypress-tests/actions/workflows/e2e.yml/badge.svg)
 
 # 🧪 PER5 - Cypress Test Suite
 
