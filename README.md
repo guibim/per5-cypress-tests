@@ -63,6 +63,6 @@ Este repositório contém a suíte de **testes automatizados E2E** desenvolvida 
 Clone este repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/<seu-usuario>/per5-cypress-tests.git
+git clone https://github.com/guibim/per5-cypress-tests.git
 cd per5-cypress-tests
 npm install
